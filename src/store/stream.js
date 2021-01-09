@@ -1,20 +1,24 @@
+// import axios from "axios";
+
 const stream = {
-  state: () => ({ 
-		test: "OK"
-	}),
+  state: () => ({
+
+  }),
   mutations: {},
   actions: {
-		createStream() {
+    getData() {
+    //   const exampleSocket = new WebSocket(
+    //     "wss://www.example.com/socketserver",
+    //     "protocolOne"
+    //   );
 
-		},
-		getData() {
-			console.log('hello')
-		}
-	},
-  getters: {}
+      console.log('Hello');
+    },
+  },
+  getters: {},
 };
 
-export default stream
+export default stream;
 
 /* 
 
